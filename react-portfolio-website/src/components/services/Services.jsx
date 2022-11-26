@@ -51,7 +51,7 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Custom video editing per request</p>
+              <p>YouTube thumbnails</p>
             </li>
           </ul>
         </article>
