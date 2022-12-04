@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
+import IMG1 from '../../assets/portfolio1.PNG'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
 import IMG4 from '../../assets/portfolio4.jpg'
@@ -15,40 +15,30 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Enliven - Social Media Website</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target="_blank">Github</a>
-            <a href="https://github.com" className='btn btn-primary' target="_blank">Live Demo</a>
+            <a href="https://github.com/Szmjuly/CEN4010_fa21_g21" className='btn' target="_blank">Github</a>
+          {/*  <a href="https://github.com" className='btn btn-primary' target="_blank">Live Demo</a> */}
           </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <img src={IMG2} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>LibAR - Augmented Reality POC for FAU Library</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target="_blank">Github</a>
-            <a href="https://github.com" className='btn btn-primary' target="_blank">Live Demo</a>
+            <a href="https://dev.azure.com/fau2021/4950C%20EngDesign/_git/LibAR" className='btn' target="_blank">Repository</a>
+            {/* <a href="https://github.com" className='btn btn-primary' target="_blank">Live Demo</a> */}
           </div>
         </article>
         <article className='portfolio__item'>
           <div className='portfolio__item-image'>
             <img src={IMG3} alt="" />
           </div>
-          <h3>This is a portfolio item title</h3>
+          <h3>Video Editing</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target="_blank">Github</a>
-            <a href="https://github.com" className='btn btn-primary' target="_blank">Live Demo</a>
-          </div>
-        </article>
-        <article className='portfolio__item'>
-          <div className='portfolio__item-image'>
-            <img src={IMG4} alt="" />
-          </div>
-          <h3>This is a portfolio item title</h3>
-          <div className="portfolio__item-cta">
-            <a href="https://github.com" className='btn' target="_blank">Github</a>
-            <a href="https://github.com" className='btn btn-primary' target="_blank">Live Demo</a>
+            <a href="https://www.youtube.com/watch?v=yFG4SQHL2aE&t=66s" className='btn' target="_blank">YouTube</a>
+            {/* <a href="https://github.com" className='btn btn-primary' target="_blank">Live Demo</a> */}
           </div>
         </article>
       </div>
