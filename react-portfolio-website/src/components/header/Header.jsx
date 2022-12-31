@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import CTA from './CTA'
 import ME from '../../assets/me.png'
+import BGVideo from '../../assets/name-title-background-video.mp4'
 import HeaderSocials from './HeaderSocials'
 
 

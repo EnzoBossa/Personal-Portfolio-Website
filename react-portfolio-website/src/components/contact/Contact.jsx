@@ -4,7 +4,7 @@ import {MdOutlineEmail} from 'react-icons/md'
 import {AiOutlinePhone} from 'react-icons/ai'
 import {AiOutlineLinkedin} from 'react-icons/ai'
 import {useRef} from 'react';
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
   const form = useRef();
