@@ -3,6 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio1.PNG'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio3.jpg'
+import IMG4 from '../../assets/portfolio4.jpg'
 
 const Portfolio = () => {
   return (
@@ -34,10 +35,22 @@ const Portfolio = () => {
           <div className='portfolio__item-image'>
             <img src={IMG3} alt="" />
           </div>
-          <h3>Video Editing</h3>
+          <h3>Tello Drone Facial Tracking</h3>
           <div className="portfolio__item-cta">
             <a href="https://www.youtube.com/watch?v=yFG4SQHL2aE&t=66s" className='btn' target="_blank" rel='noreferrer'>YouTube</a>
             {/* <a href="https://github.com" className='btn btn-primary' target="_blank">Live Demo</a> */}
+          </div>
+        </article>
+      </div>
+      <div className="container portfolio__container">
+        <article className='portfolio__item'>
+          <div className='portfolio__item-image'>
+            <img src={IMG4} alt="" />
+          </div>
+          <h3>Virtual IT Lab Environment</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/Szmjuly/CEN4010_fa21_g21" className='btn' target="_blank" rel='noreferrer'>Github</a>
+          {/*  <a href="https://github.com" className='btn btn-primary' target="_blank">Live Demo</a> */}
           </div>
         </article>
       </div>

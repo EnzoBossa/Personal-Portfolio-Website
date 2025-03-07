@@ -34,24 +34,24 @@ const Services = () => {
         </article>
         <article className='service'>
           <div className="service__head">
-            <h3>Video Editing</h3>
+            <h3>Information Technology</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Trimming and merging clips</p>
+              <p>Hardware and Software Support</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>YouTube video editing</p>
+              <p>Network Troubleshooting</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>Gaming videos and montages</p>
+              <p>Manage Active Directory</p>
             </li>
             <li>
               <BiCheck className='service__list-icon'/>
-              <p>YouTube thumbnails</p>
+              <p>PC Building and Setup</p>
             </li>
           </ul>
         </article>
