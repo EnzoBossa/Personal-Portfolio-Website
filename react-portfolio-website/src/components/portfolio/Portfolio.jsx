@@ -37,7 +37,7 @@ const Portfolio = () => {
           </div>
           <h3>Tello Drone Facial Tracking</h3>
           <div className="portfolio__item-cta">
-            <a href="https://www.youtube.com/watch?v=yFG4SQHL2aE&t=66s" className='btn' target="_blank" rel='noreferrer'>YouTube</a>
+            <a href="https://github.com/EnzoBossa/TelloDroneTest2" className='btn' target="_blank" rel='noreferrer'>GitHub</a>
             {/* <a href="https://github.com" className='btn btn-primary' target="_blank">Live Demo</a> */}
           </div>
         </article>
@@ -49,7 +49,7 @@ const Portfolio = () => {
           </div>
           <h3>Virtual IT Lab Environment</h3>
           <div className="portfolio__item-cta">
-            <a href="https://github.com/Szmjuly/CEN4010_fa21_g21" className='btn' target="_blank" rel='noreferrer'>Github</a>
+             <a  className='btn' target="_blank" rel='noreferrer'>ReadMe (Coming Soon)</a> 
           {/*  <a href="https://github.com" className='btn btn-primary' target="_blank">Live Demo</a> */}
           </div>
         </article>
